@@ -1,73 +1,72 @@
-<div align="center">
-
-<img src="./assets/header.svg" width="100%" alt="Edmon Alcoceba Carbón · Estudiante de Ingeniería Informática" />
-
-<a href="https://github.com/ImNotBan"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3200&pause=1000&color=8B5CF6&center=true&vCenter=true&width=560&lines=Inteligencia+artificial+%C2%B7+Software+%C2%B7+Web;Grado+en+Ingenier%C3%ADa+Inform%C3%A1tica+%C2%B7+UdL" alt="Inteligencia artificial · Software · Web" /></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" /><img src="./assets/header-light.svg" alt="Edmon Alcoceba Carbón — Estudiante de Ingeniería Informática, 3.º curso, Universitat de Lleida" width="100%" /></picture>
 
 <br />
 
-<img src="https://img.shields.io/badge/Universitat_de_Lleida-GEI_%C2%B7_3.%C2%BA_curso-7c3aed?style=flat-square" alt="Universitat de Lleida · GEI · 3.º curso" />
-<img src="https://img.shields.io/badge/Barcelona-Catalunya-4338ca?style=flat-square" alt="Barcelona, Catalunya" />
-<img src="https://img.shields.io/badge/Disponible_para-pr%C3%A1cticas-1e1b4b?style=flat-square" alt="Disponible para prácticas" />
+### Sobre mí
 
-</div>
+Estudio tercero del Grado en Ingeniería Informática en la Universitat de Lleida. Me interesan el desarrollo de software, la inteligencia artificial y el desarrollo web.
+
+En mis repositorios hay prácticas de la carrera —algorítmica, estructuras de datos, redes y autómatas— y proyectos web propios.
+
+Catalán y castellano (nativo) · Inglés (B2) · Alemán (básico)
 
 <br />
 
-<div align="center">
+### Tecnologías
 
-<img src="./assets/about.svg" width="100%" alt="Sobre mí: Grado en Ingeniería Informática, Universitat de Lleida, 3.º curso · Barcelona · Intereses: IA, software y web · Idiomas: catalán y castellano (nativo), inglés (B2), alemán (básico)" />
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/lenguajes-dark.svg" /><img src="./assets/stack/lenguajes-light.svg" alt="Lenguajes" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/java-dark.svg" /><img src="./assets/stack/java-light.svg" alt="Java" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/python-dark.svg" /><img src="./assets/stack/python-light.svg" alt="Python" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/c-dark.svg" /><img src="./assets/stack/c-light.svg" alt="C" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/cpp-dark.svg" /><img src="./assets/stack/cpp-light.svg" alt="C++" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/typescript-dark.svg" /><img src="./assets/stack/typescript-light.svg" alt="TypeScript" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/assembly-dark.svg" /><img src="./assets/stack/assembly-light.svg" alt="Assembly" /></picture>
+</p>
 
-<img src="./assets/stack.svg" width="100%" alt="Tecnologías: Java, Python, C, C++, Assembly, TypeScript, HTML, CSS, Bash, Git, Linux" />
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/web-dark.svg" /><img src="./assets/stack/web-light.svg" alt="Web" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/next-js-dark.svg" /><img src="./assets/stack/next-js-light.svg" alt="Next.js" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/react-dark.svg" /><img src="./assets/stack/react-light.svg" alt="React" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/flask-dark.svg" /><img src="./assets/stack/flask-light.svg" alt="Flask" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/html-dark.svg" /><img src="./assets/stack/html-light.svg" alt="HTML" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/css-dark.svg" /><img src="./assets/stack/css-light.svg" alt="CSS" /></picture>
+</p>
 
-<a href="https://montserrat-viva.vercel.app/"><img src="./assets/project.svg" width="100%" alt="Proyecto destacado: Montserrat Viva, mi TDR de bachillerato convertido en web" /></a>
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/herramientas-dark.svg" /><img src="./assets/stack/herramientas-light.svg" alt="Herramientas" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/git-dark.svg" /><img src="./assets/stack/git-light.svg" alt="Git" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/bash-dark.svg" /><img src="./assets/stack/bash-light.svg" alt="Bash" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/linux-dark.svg" /><img src="./assets/stack/linux-light.svg" alt="Linux" /></picture>
+</p>
 
-</div>
+<br />
 
-## Estadísticas
+### Proyecto destacado
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ImNotBan&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=a78bfa&text_color=c9d1d9&icon_color=a78bfa" />
-    <img src="https://github-readme-stats.vercel.app/api?username=ImNotBan&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=6d28d9&text_color=24292f&icon_color=7c3aed" height="165" alt="Estadísticas de GitHub" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ImNotBan&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=a78bfa&text_color=c9d1d9&icon_color=a78bfa" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ImNotBan&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=6d28d9&text_color=24292f&icon_color=7c3aed" height="165" alt="Lenguajes más usados" />
-  </picture>
-  <br />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ImNotBan&hide_border=true&background=00000000&ring=7C3AED&fire=8B5CF6&currStreakNum=A78BFA&sideNums=A78BFA&currStreakLabel=A78BFA&sideLabels=A78BFA&dates=8B949E&stroke=30363D" />
-    <img src="https://streak-stats.demolab.com?user=ImNotBan&hide_border=true&background=00000000&ring=7C3AED&fire=8B5CF6&currStreakNum=A78BFA&sideNums=A78BFA&currStreakLabel=A78BFA&sideLabels=A78BFA&dates=57606A&stroke=D0D7DE" alt="Racha de contribuciones" />
-  </picture>
-</div>
+<a href="https://montserrat-viva.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-dark.svg" /><img src="./assets/project-light.svg" alt="Montserrat Viva — Una montaña. Cientos de especies. Un solo ecosistema." width="100%" /></picture></a>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ImNotBan/ImNotBan/output/snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/ImNotBan/ImNotBan/output/snake.svg" width="100%" alt="Serpiente de contribuciones" />
-  </picture>
-</div>
+Mi TDR de bachillerato convertido en web: una guía de divulgación sobre la biodiversidad de Montserrat. Reúne un atlas con 50 fichas de fauna y flora, la red de relaciones del ecosistema y la historia geológica de la montaña.
 
-## Contacto
+<br />
 
-<div align="center">
+### Lenguajes
 
-<a href="mailto:edmonalkoceba21@gmail.com"><img src="https://img.shields.io/badge/Email-edmonalkoceba21%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<!-- LINKEDIN_URL: sustituye la URL y descomenta la línea siguiente -->
-<!-- <a href="LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Edmon_Alcoceba-4338ca?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NSAyMC40NWgtMy41NnYtNS41N2MwLTEuMzMtLjAyLTMuMDQtMS44NS0zLjA0LTEuODUgMC0yLjE0IDEuNDUtMi4xNCAyLjk0djUuNjdIOS4zNVY5aDMuNDF2MS41NmguMDVjLjQ4LS45IDEuNjQtMS44NSAzLjM3LTEuODUgMy42IDAgNC4yNyAyLjM3IDQuMjcgNS40NnY2LjI4ek01LjM0IDcuNDNhMi4wNiAyLjA2IDAgMSAxIDAtNC4xMyAyLjA2IDIuMDYgMCAwIDEgMCA0LjEzek03LjEyIDIwLjQ1SDMuNTZWOWgzLjU2djExLjQ1ek0yMi4yMiAwSDEuNzdDLjc5IDAgMCAuNzcgMCAxLjczdjIwLjU0QzAgMjMuMjMuNzkgMjQgMS43NyAyNGgyMC40NWMuOTggMCAxLjc4LS43NyAxLjc4LTEuNzNWMS43M0MyNCAuNzcgMjMuMiAwIDIyLjIyIDB6Ii8+PC9zdmc+" alt="LinkedIn" /></a> -->
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ImNotBan/ImNotBan/output/languages-dark.svg" /><img src="https://raw.githubusercontent.com/ImNotBan/ImNotBan/output/languages-light.svg" alt="Lenguajes en mis repositorios públicos" width="100%" /></picture>
 
-</div>
+<sub>Calculado a diario con GitHub Actions a partir de mis repositorios públicos.</sub>
+
+<br />
+
+### Contacto
+
+[edmonalkoceba21@gmail.com](mailto:edmonalkoceba21@gmail.com)
+<!-- LinkedIn: añade aquí el enlace cuando quieras, p. ej. · [LinkedIn](https://www.linkedin.com/in/…) -->
 
 <details>
-<summary><b>In English</b></summary>
+<summary><sub>In English</sub></summary>
 <br />
 
-Third-year Computer Engineering student at the Universitat de Lleida, based in Barcelona.
-Interested in artificial intelligence, software development and web development.
-Looking for IT internships compatible with my studies.
-Languages: Catalan and Spanish (native), English (B2), German (basic).
+Third-year Computer Engineering student at the Universitat de Lleida, based in Barcelona. Interested in software development, artificial intelligence and web development. Featured project: [Montserrat Viva](https://montserrat-viva.vercel.app/), a website about the biodiversity of Montserrat. Languages: Catalan and Spanish (native), English (B2), German (basic).
 
 </details>
-
-<img src="./assets/footer.svg" width="100%" alt="" />
