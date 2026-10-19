@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,50:4338ca,100:7c3aed&height=200&section=header&text=Edmon%20Alcoceba%20Carb%C3%B3n&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Estudiante%20de%20Ingenier%C3%ADa%20Inform%C3%A1tica&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="Edmon Alcoceba Carbón · Estudiante de Ingeniería Informática" />
+<img src="./assets/header.svg" width="100%" alt="Edmon Alcoceba Carbón · Estudiante de Ingeniería Informática" />
 
 <a href="https://github.com/ImNotBan"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3200&pause=1000&color=8B5CF6&center=true&vCenter=true&width=560&lines=Inteligencia+artificial+%C2%B7+Software+%C2%B7+Web;Grado+en+Ingenier%C3%ADa+Inform%C3%A1tica+%C2%B7+UdL;Buscando+pr%C3%A1cticas+en+el+sector+IT" alt="Inteligencia artificial · Software · Web" /></a>
 
@@ -52,8 +52,6 @@
 
 <div align="center">
 
-<a href="https://montserrat-viva.vercel.app/"><img src="https://montserrat-viva.vercel.app/opengraph-image.jpg" width="640" alt="Montserrat Viva" /></a>
-
 ### Montserrat Viva
 
 Mi TDR de bachillerato convertido en web.
@@ -66,9 +64,24 @@ Mi TDR de bachillerato convertido en web.
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ImNotBan&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=a78bfa&text_color=c9d1d9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ImNotBan&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=6d28d9&text_color=24292f" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ImNotBan&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=6d28d9&text_color=24292f" alt="Lenguajes más usados" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ImNotBan&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=a78bfa&text_color=c9d1d9&icon_color=a78bfa" />
+    <img src="https://github-readme-stats.vercel.app/api?username=ImNotBan&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=6d28d9&text_color=24292f&icon_color=7c3aed" height="165" alt="Estadísticas de GitHub" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ImNotBan&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=a78bfa&text_color=c9d1d9&icon_color=a78bfa" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ImNotBan&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=6d28d9&text_color=24292f&icon_color=7c3aed" height="165" alt="Lenguajes más usados" />
+  </picture>
+  <br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ImNotBan&hide_border=true&background=00000000&ring=7C3AED&fire=8B5CF6&currStreakNum=A78BFA&sideNums=A78BFA&currStreakLabel=A78BFA&sideLabels=A78BFA&dates=8B949E&stroke=30363D" />
+    <img src="https://streak-stats.demolab.com?user=ImNotBan&hide_border=true&background=00000000&ring=7C3AED&fire=8B5CF6&currStreakNum=A78BFA&sideNums=A78BFA&currStreakLabel=A78BFA&sideLabels=A78BFA&dates=57606A&stroke=D0D7DE" alt="Racha de contribuciones" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ImNotBan/ImNotBan/output/snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/ImNotBan/ImNotBan/output/snake.svg" width="100%" alt="Serpiente de contribuciones" />
   </picture>
 </div>
 
@@ -93,4 +106,4 @@ Languages: Catalan and Spanish (native), English (B2), German (basic).
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:4338ca,100:1e1b4b&height=110&section=footer" width="100%" alt="" />
+<img src="./assets/footer.svg" width="100%" alt="" />
