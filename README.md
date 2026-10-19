@@ -2,7 +2,7 @@
 
 <img src="./assets/header.svg" width="100%" alt="Edmon Alcoceba Carbón · Estudiante de Ingeniería Informática" />
 
-<a href="https://github.com/ImNotBan"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3200&pause=1000&color=8B5CF6&center=true&vCenter=true&width=560&lines=Inteligencia+artificial+%C2%B7+Software+%C2%B7+Web;Grado+en+Ingenier%C3%ADa+Inform%C3%A1tica+%C2%B7+UdL;Buscando+pr%C3%A1cticas+en+el+sector+IT" alt="Inteligencia artificial · Software · Web" /></a>
+<a href="https://github.com/ImNotBan"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3200&pause=1000&color=8B5CF6&center=true&vCenter=true&width=560&lines=Inteligencia+artificial+%C2%B7+Software+%C2%B7+Web;Grado+en+Ingenier%C3%ADa+Inform%C3%A1tica+%C2%B7+UdL" alt="Inteligencia artificial · Software · Web" /></a>
 
 <br />
 
@@ -14,49 +14,13 @@
 
 <br />
 
-## Sobre mí
-
-<table>
-  <tr>
-    <td width="130"><b>Formación</b></td>
-    <td>3.º del Grado en Ingeniería Informática (GEI), Universitat de Lleida</td>
-  </tr>
-  <tr>
-    <td><b>Intereses</b></td>
-    <td>Inteligencia artificial, desarrollo de software y desarrollo web</td>
-  </tr>
-  <tr>
-    <td><b>Objetivo</b></td>
-    <td>Prácticas en el sector IT compatibles con mis estudios</td>
-  </tr>
-  <tr>
-    <td><b>Idiomas</b></td>
-    <td>Catalán y castellano (nativo) · Inglés (B2) · Alemán (básico)</td>
-  </tr>
-</table>
-
-## Tecnologías
-
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,python,c,cpp,ts,html,css,bash,git,linux&theme=dark&perline=10" />
-  <img src="https://skillicons.dev/icons?i=java,python,c,cpp,ts,html,css,bash,git,linux&theme=light&perline=10" alt="Java, Python, C, C++, TypeScript, HTML, CSS, Bash, Git, Linux" />
-</picture>
+<img src="./assets/about.svg" width="100%" alt="Sobre mí: Grado en Ingeniería Informática, Universitat de Lleida, 3.º curso · Barcelona · Intereses: IA, software y web · Idiomas: catalán y castellano (nativo), inglés (B2), alemán (básico)" />
 
-<sub>Java · Python · C · C++ · Assembly · TypeScript · HTML · CSS · Bash · Git · Linux</sub>
+<img src="./assets/stack.svg" width="100%" alt="Tecnologías: Java, Python, C, C++, Assembly, TypeScript, HTML, CSS, Bash, Git, Linux" />
 
-</div>
-
-## Proyecto destacado
-
-<div align="center">
-
-### Montserrat Viva
-
-Mi TDR de bachillerato convertido en web.
-
-<a href="https://montserrat-viva.vercel.app/"><img src="https://img.shields.io/badge/Visitar_la_web-7c3aed?style=for-the-badge&logo=vercel&logoColor=white" alt="Visitar la web" /></a>
+<a href="https://montserrat-viva.vercel.app/"><img src="./assets/project.svg" width="100%" alt="Proyecto destacado: Montserrat Viva, mi TDR de bachillerato convertido en web" /></a>
 
 </div>
 
