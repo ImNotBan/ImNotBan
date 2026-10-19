@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,100:7c3aed&height=170&section=header&text=Edmon%20Alcoceba%20Carb%C3%B3n&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Estudiante%20de%20Ingenier%C3%ADa%20Inform%C3%A1tica%20%C2%B7%20IA%2C%20software%20y%20web&descSize=16&descAlignY=58" width="100%" alt="Edmon Alcoceba Carbón · Estudiante de Ingeniería Informática" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,50:4338ca,100:7c3aed&height=200&section=header&text=Edmon%20Alcoceba%20Carb%C3%B3n&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Estudiante%20de%20Ingenier%C3%ADa%20Inform%C3%A1tica&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="Edmon Alcoceba Carbón · Estudiante de Ingeniería Informática" />
+
+<a href="https://github.com/ImNotBan"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3200&pause=1000&color=8B5CF6&center=true&vCenter=true&width=560&lines=Inteligencia+artificial+%C2%B7+Software+%C2%B7+Web;Grado+en+Ingenier%C3%ADa+Inform%C3%A1tica+%C2%B7+UdL;Buscando+pr%C3%A1cticas+en+el+sector+IT" alt="Inteligencia artificial · Software · Web" /></a>
+
+<br />
 
 <img src="https://img.shields.io/badge/Universitat_de_Lleida-GEI_%C2%B7_3.%C2%BA_curso-7c3aed?style=flat-square" alt="Universitat de Lleida · GEI · 3.º curso" />
 <img src="https://img.shields.io/badge/Barcelona-Catalunya-4338ca?style=flat-square" alt="Barcelona, Catalunya" />
@@ -8,45 +12,53 @@
 
 </div>
 
+<br />
+
 ## Sobre mí
 
-- **Formación:** 3.º del Grado en Ingeniería Informática (GEI), Universitat de Lleida.
-- **Intereses:** inteligencia artificial, desarrollo de software y desarrollo web.
-- **Objetivo:** prácticas en el sector IT compatibles con mis estudios.
-- **Idiomas:** catalán y castellano (nativo), inglés (B2), alemán (básico).
+<table>
+  <tr>
+    <td width="130"><b>Formación</b></td>
+    <td>3.º del Grado en Ingeniería Informática (GEI), Universitat de Lleida</td>
+  </tr>
+  <tr>
+    <td><b>Intereses</b></td>
+    <td>Inteligencia artificial, desarrollo de software y desarrollo web</td>
+  </tr>
+  <tr>
+    <td><b>Objetivo</b></td>
+    <td>Prácticas en el sector IT compatibles con mis estudios</td>
+  </tr>
+  <tr>
+    <td><b>Idiomas</b></td>
+    <td>Catalán y castellano (nativo) · Inglés (B2) · Alemán (básico)</td>
+  </tr>
+</table>
 
 ## Tecnologías
 
 <div align="center">
 
-**Lenguajes**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,python,c,cpp,ts,html,css,bash,git,linux&theme=dark&perline=10" />
+  <img src="https://skillicons.dev/icons?i=java,python,c,cpp,ts,html,css,bash,git,linux&theme=light&perline=10" alt="Java, Python, C, C++, TypeScript, HTML, CSS, Bash, Git, Linux" />
+</picture>
 
-<img src="https://img.shields.io/badge/Java-312e81?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/Python-312e81?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/C-312e81?style=flat-square&logo=c&logoColor=white" alt="C" />
-<img src="https://img.shields.io/badge/C%2B%2B-312e81?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/Assembly-312e81?style=flat-square" alt="Assembly" />
-<img src="https://img.shields.io/badge/TypeScript-312e81?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/HTML-312e81?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/CSS-312e81?style=flat-square&logo=css&logoColor=white" alt="CSS" />
-
-**Herramientas**
-
-<img src="https://img.shields.io/badge/Bash-6d28d9?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
-<img src="https://img.shields.io/badge/Git-6d28d9?style=flat-square&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Linux-6d28d9?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+<sub>Java · Python · C · C++ · Assembly · TypeScript · HTML · CSS · Bash · Git · Linux</sub>
 
 </div>
 
-## Proyecto
+## Proyecto destacado
 
 <div align="center">
+
+<a href="https://montserrat-viva.vercel.app/"><img src="https://montserrat-viva.vercel.app/opengraph-image.jpg" width="640" alt="Montserrat Viva" /></a>
 
 ### Montserrat Viva
 
 Mi TDR de bachillerato convertido en web.
 
-<a href="https://montserrat-viva.vercel.app/"><img src="https://img.shields.io/badge/Visitar_la_web-7c3aed?style=flat-square&logo=vercel&logoColor=white" alt="Visitar la web" /></a>
+<a href="https://montserrat-viva.vercel.app/"><img src="https://img.shields.io/badge/Visitar_la_web-7c3aed?style=for-the-badge&logo=vercel&logoColor=white" alt="Visitar la web" /></a>
 
 </div>
 
@@ -64,15 +76,21 @@ Mi TDR de bachillerato convertido en web.
 
 <div align="center">
 
-<a href="mailto:edmonalkoceba21@gmail.com"><img src="https://img.shields.io/badge/Email-edmonalkoceba21%40gmail.com-7c3aed?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="mailto:edmonalkoceba21@gmail.com"><img src="https://img.shields.io/badge/Email-edmonalkoceba21%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <!-- LINKEDIN_URL: sustituye la URL y descomenta la línea siguiente -->
-<!-- <a href="LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Edmon_Alcoceba-4338ca?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NSAyMC40NWgtMy41NnYtNS41N2MwLTEuMzMtLjAyLTMuMDQtMS44NS0zLjA0LTEuODUgMC0yLjE0IDEuNDUtMi4xNCAyLjk0djUuNjdIOS4zNVY5aDMuNDF2MS41NmguMDVjLjQ4LS45IDEuNjQtMS44NSAzLjM3LTEuODUgMy42IDAgNC4yNyAyLjM3IDQuMjcgNS40NnY2LjI4ek01LjM0IDcuNDNhMi4wNiAyLjA2IDAgMSAxIDAtNC4xMyAyLjA2IDIuMDYgMCAwIDEgMCA0LjEzek03LjEyIDIwLjQ1SDMuNTZWOWgzLjU2djExLjQ1ek0yMi4yMiAwSDEuNzdDLjc5IDAgMCAuNzcgMCAxLjczdjIwLjU0QzAgMjMuMjMuNzkgMjQgMS43NyAyNGgyMC40NWMuOTggMCAxLjc4LS43NyAxLjc4LTEuNzNWMS43M0MyNCAuNzcgMjMuMiAwIDIyLjIyIDB6Ii8+PC9zdmc+" alt="LinkedIn" /></a> -->
+<!-- <a href="LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Edmon_Alcoceba-4338ca?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NSAyMC40NWgtMy41NnYtNS41N2MwLTEuMzMtLjAyLTMuMDQtMS44NS0zLjA0LTEuODUgMC0yLjE0IDEuNDUtMi4xNCAyLjk0djUuNjdIOS4zNVY5aDMuNDF2MS41NmguMDVjLjQ4LS45IDEuNjQtMS44NSAzLjM3LTEuODUgMy42IDAgNC4yNyAyLjM3IDQuMjcgNS40NnY2LjI4ek01LjM0IDcuNDNhMi4wNiAyLjA2IDAgMSAxIDAtNC4xMyAyLjA2IDIuMDYgMCAwIDEgMCA0LjEzek03LjEyIDIwLjQ1SDMuNTZWOWgzLjU2djExLjQ1ek0yMi4yMiAwSDEuNzdDLjc5IDAgMCAuNzcgMCAxLjczdjIwLjU0QzAgMjMuMjMuNzkgMjQgMS43NyAyNGgyMC40NWMuOTggMCAxLjc4LS43NyAxLjc4LTEuNzNWMS43M0MyNCAuNzcgMjMuMiAwIDIyLjIyIDB6Ii8+PC9zdmc+" alt="LinkedIn" /></a> -->
 
 </div>
 
-## In English
+<details>
+<summary><b>In English</b></summary>
+<br />
 
 Third-year Computer Engineering student at the Universitat de Lleida, based in Barcelona.
 Interested in artificial intelligence, software development and web development.
 Looking for IT internships compatible with my studies.
 Languages: Catalan and Spanish (native), English (B2), German (basic).
+
+</details>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:4338ca,100:1e1b4b&height=110&section=footer" width="100%" alt="" />
