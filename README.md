@@ -4,18 +4,18 @@
 
 <img src="https://img.shields.io/badge/Universitat_de_Lleida-GEI_%C2%B7_3.%C2%BA_curso-7c3aed?style=flat-square" alt="Universitat de Lleida · GEI · 3.º curso" />
 <img src="https://img.shields.io/badge/Barcelona-Catalunya-4338ca?style=flat-square" alt="Barcelona, Catalunya" />
-<img src="https://img.shields.io/badge/Buscando-pr%C3%A1cticas_IT-1e1b4b?style=flat-square" alt="Buscando prácticas IT" />
+<img src="https://img.shields.io/badge/Disponible_para-pr%C3%A1cticas-1e1b4b?style=flat-square" alt="Disponible para prácticas" />
 
 </div>
 
-## 👤 Sobre mí
+## Sobre mí
 
-- Estudiante de 3.º del Grado en Ingeniería Informática (GEI) en la Universitat de Lleida.
-- Me interesan la inteligencia artificial, el desarrollo de software y el desarrollo web.
-- Busco prácticas en el sector IT compatibles con mis estudios.
-- Idiomas: catalán y castellano (nativo), inglés (B2) y alemán (básico).
+- **Formación:** 3.º del Grado en Ingeniería Informática (GEI), Universitat de Lleida.
+- **Intereses:** inteligencia artificial, desarrollo de software y desarrollo web.
+- **Objetivo:** prácticas en el sector IT compatibles con mis estudios.
+- **Idiomas:** catalán y castellano (nativo), inglés (B2), alemán (básico).
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 <div align="center">
 
@@ -38,13 +38,19 @@
 
 </div>
 
-## 📁 Proyecto
+## Proyecto
 
-| Proyecto | Descripción | Enlace |
-| :-- | :-- | :-- |
-| **Montserrat Viva** | Mi TDR de bachillerato convertido en web. | [Demo](https://montserrat-viva.vercel.app/) |
+<div align="center">
 
-## 📊 Estadísticas
+### Montserrat Viva
+
+Mi TDR de bachillerato convertido en web.
+
+<a href="https://montserrat-viva.vercel.app/"><img src="https://img.shields.io/badge/Visitar_la_web-7c3aed?style=flat-square&logo=vercel&logoColor=white" alt="Visitar la web" /></a>
+
+</div>
+
+## Estadísticas
 
 <div align="center">
   <picture>
@@ -54,7 +60,7 @@
   </picture>
 </div>
 
-## 📬 Contacto
+## Contacto
 
 <div align="center">
 
@@ -64,7 +70,7 @@
 
 </div>
 
-## 🇬🇧 In English
+## In English
 
 Third-year Computer Engineering student at the Universitat de Lleida, based in Barcelona.
 Interested in artificial intelligence, software development and web development.
