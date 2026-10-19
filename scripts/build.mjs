@@ -141,42 +141,40 @@ function project() {
   const front = ridge(rand, { x0: -20, x1: 820, base: H + 10, depth: 6, wMin: 150, wMax: 220,
     env: (x) => 546 - bump(x, 260, 260, 26) - bump(x, 760, 120, 30) });
   const [peakX, peakY] = back.tops.reduce((a, b) => (b[1] < a[1] ? b : a));
-  const stars = Array.from({ length: 46 }, () => {
+  const stars = Array.from({ length: 26 }, () => {
     const x = 300 + rand() * 490, y = 24 + rand() * 170;
-    return `<circle cx="${f1(x)}" cy="${f1(y)}" r="${f1(0.6 + rand() * 1.1)}" fill-opacity="${(0.25 + rand() * 0.6).toFixed(2)}" />`;
+    return `<circle cx="${f1(x)}" cy="${f1(y)}" r="${f1(0.6 + rand() * 1.1)}" fill-opacity="${(0.2 + rand() * 0.4).toFixed(2)}" />`;
   }).join("");
   const css = `
 .k{font:500 22px ${MONO};fill:${c.violet2}}
-.n{font:600 70px ${SANS};letter-spacing:-2.6px;fill:${c.text}}
+.n{font:600 64px ${SANS};letter-spacing:-2.4px;fill:${c.text}}
 .q{font:italic 400 36px ${SERIF};fill:${c.text2}}
 .m{font:500 22px ${MONO};fill:${c.muted}}
 .p{font:500 22px ${MONO};fill:${c.text2}}
-.b{font:600 24px ${SANS};fill:#ffffff;letter-spacing:-.2px}
+.b{font:500 24px ${SANS};fill:${c.text2};letter-spacing:-.2px}
 .tw{animation:tw 4s ease-in-out infinite}
 @keyframes tw{50%{opacity:.35}}`;
   const defs = `
-<radialGradient id="haze" cx="${f1(peakX)}" cy="${f1(peakY + 60)}" r="380" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="${c.violet}" stop-opacity=".42" /><stop offset=".6" stop-color="${c.violet}" stop-opacity=".08" /><stop offset="1" stop-color="${c.violet}" stop-opacity="0" /></radialGradient>
-<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b0a10" /><stop offset="1" stop-color="#140f24" /></linearGradient>
-<linearGradient id="l1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a1f4d" /><stop offset=".6" stop-color="#151026" /></linearGradient>
-<linearGradient id="l2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1430" /><stop offset=".6" stop-color="#0e0b18" /></linearGradient>
-<linearGradient id="btn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6" /><stop offset="1" stop-color="#6d28d9" /></linearGradient>`;
+<radialGradient id="haze" cx="${f1(peakX)}" cy="${f1(peakY + 60)}" r="380" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="${c.violet}" stop-opacity=".2" /><stop offset=".6" stop-color="${c.violet}" stop-opacity=".04" /><stop offset="1" stop-color="${c.violet}" stop-opacity="0" /></radialGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0a0d" /><stop offset="1" stop-color="#0f0d17" /></linearGradient>
+<linearGradient id="l1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c1730" /><stop offset=".6" stop-color="#110e1b" /></linearGradient>
+<linearGradient id="l2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141122" /><stop offset=".6" stop-color="#0c0a12" /></linearGradient>`;
   const body = `<rect width="${W}" height="${H}" fill="url(#sky)" />
 <rect width="${W}" height="${H}" fill="url(#haze)" />
 <g class="tw" fill="#ffffff">${stars}</g>
-<path d="${back.d}" fill="url(#l1)" stroke="${c.violet2}" stroke-opacity=".28" />
-<path d="${mid.d}" fill="url(#l2)" stroke="${c.violet2}" stroke-opacity=".5" />
-<path d="${front.d}" fill="#08070c" stroke="${c.violet3}" stroke-opacity=".85" stroke-width="1.5" />
+<path d="${back.d}" fill="url(#l1)" stroke="${c.violet2}" stroke-opacity=".16" />
+<path d="${mid.d}" fill="url(#l2)" stroke="${c.violet2}" stroke-opacity=".28" />
+<path d="${front.d}" fill="#08070c" stroke="${c.violet3}" stroke-opacity=".4" stroke-width="1" />
 <circle cx="${f1(peakX)}" cy="${f1(peakY)}" r="4" fill="#ffffff" />
 <path d="M${f1(peakX)} ${f1(peakY - 10)}V${f1(peakY - 60)}H612" fill="none" stroke="${c.text2}" stroke-opacity=".6" />
 <text class="p" x="760" y="${f1(peakY - 92)}" text-anchor="end">Sant Jeroni</text>
 <text class="m" x="760" y="${f1(peakY - 66)}" text-anchor="end">1236 m</text>
 <text class="k" x="48" y="78">FEATURED PROJECT</text>
-<text class="n" x="44" y="160">Montserrat Viva</text>
-<text class="q" x="48" y="212">Una muntanya. Centenars d’espècies.</text>
-<text class="q" x="48" y="252">Un sol ecosistema.</text>
+<text class="n" x="45" y="156">Montserrat Viva</text>
+<text class="q" x="48" y="206">Una muntanya. Centenars d’espècies.</text>
+<text class="q" x="48" y="246">Un sol ecosistema.</text>
 <text class="m" x="48" y="428">Next.js · React · TypeScript</text>
-<rect x="48" y="462" width="390" height="56" rx="28" fill="url(#btn)" />
-<rect x="48.5" y="462.5" width="389" height="55" rx="27.5" fill="none" stroke="#ffffff" stroke-opacity=".18" />
+<rect x="48.5" y="462.5" width="389" height="55" rx="27.5" fill="${c.violet}" fill-opacity=".1" stroke="${c.violet2}" stroke-opacity=".45" />
 <text class="b" x="243" y="498" text-anchor="middle">montserrat-viva.vercel.app ↗</text>`;
   return svg({ width: W, height: H, label: "Featured project: Montserrat Viva — Una muntanya. Centenars d’espècies. Un sol ecosistema. montserrat-viva.vercel.app", fonts: ["sans-500", "sans-600", "serif-italic"], css, defs, body });
 }
