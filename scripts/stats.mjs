@@ -1,8 +1,8 @@
-// Builds the language breakdown card from the public, non-fork repositories
-// of the profile owner. Run daily by .github/workflows/stats.yml, which
-// publishes the result to the `output` branch.
+// Builds the GitHub activity card from the profile owner's public, non-fork
+// repositories. Run daily by .github/workflows/stats.yml, which publishes
+// the result to the `output` branch.
 //   GITHUB_TOKEN=... node scripts/stats.mjs <out-dir>
-import { SANS, MONO, themes, svg, card, esc, write } from "./lib.mjs";
+import { SANS, MONO, c, svg, esc, write, f1 } from "./lib.mjs";
 
 const login = process.env.GITHUB_REPOSITORY_OWNER || "ImNotBan";
 const outDir = process.argv[2] || "dist";
@@ -28,43 +28,42 @@ const totals = new Map();
 for (const repo of repos.nodes)
   for (const { size, node } of repo.languages.edges) totals.set(node.name, (totals.get(node.name) ?? 0) + size);
 const sum = [...totals.values()].reduce((a, b) => a + b, 0);
-const sorted = [...totals].sort((a, b) => b[1] - a[1]);
-const top = sorted.slice(0, 6).map(([name, size]) => ({ name, share: size / sum }));
+const top = [...totals].sort((a, b) => b[1] - a[1]).slice(0, 4).map(([name, size]) => ({ name, share: size / sum }));
 const rest = 1 - top.reduce((a, b) => a + b.share, 0);
-if (rest > 0.0005) top.push({ name: "Otros", share: rest });
+const shades = [c.violet, c.text2, c.muted, c.subtle, "#3f3f46"];
 
-const updated = new Date().toISOString().slice(0, 10);
-function render(t) {
-  const W = 800, H = 262, X = 40, BW = W - 2 * X;
-  let x = X;
-  const segs = top
-    .map((l, i) => {
-      const w = Math.max(l.share * BW - 3, 2);
-      const r = `<rect x="${x.toFixed(1)}" y="96" width="${w.toFixed(1)}" height="10" rx="3" fill="${t.scale[i]}" />`;
-      x += l.share * BW;
-      return r;
-    })
-    .join("\n");
-  const legend = top
-    .map((l, i) => {
-      const cx = X + (i % 3) * 250, cy = 162 + Math.floor(i / 3) * 40;
-      return `<rect x="${cx}" y="${cy - 13}" width="12" height="12" rx="2.5" fill="${t.scale[i]}" />
-<text class="n" x="${cx + 22}" y="${cy}">${esc(l.name)}</text>
-<text class="p" x="${cx + 214}" y="${cy}" text-anchor="end">${(l.share * 100).toFixed(1)}%</text>`;
-    })
-    .join("\n");
-  const css = `
-.k{font:500 14px ${MONO};fill:${t.accent};letter-spacing:1.6px}
-.u{font:400 14px ${MONO};fill:${t.subtle}}
-.n{font:500 20px ${SANS};fill:${t.text}}
-.p{font:400 17px ${MONO};fill:${t.muted}}`;
-  const body = `${card(t, W, H)}
-<text class="k" x="${X}" y="60">${repos.totalCount} REPOSITORIOS PÚBLICOS</text>
-<text class="u" x="${W - X}" y="60" text-anchor="end">${updated}</text>
+const W = 800, H = 270, X = 40, BX = 300, BW = W - X - BX;
+let x = BX;
+const segs = [...top, { name: "Other", share: rest }]
+  .map((l, i) => {
+    const w = Math.max(l.share * BW - 4, 3);
+    const r = `<rect x="${f1(x)}" y="132" width="${f1(w)}" height="14" rx="4" fill="${shades[i]}" />`;
+    x += l.share * BW;
+    return r;
+  })
+  .join("\n");
+const legend = top
+  .map((l, i) => {
+    const lx = BX + (i % 2) * 240, ly = 194 + Math.floor(i / 2) * 42;
+    return `<rect x="${lx}" y="${ly - 15}" width="14" height="14" rx="4" fill="${shades[i]}" />
+<text class="l" x="${lx + 26}" y="${ly}">${esc(l.name)}</text>
+<text class="v" x="${lx + 218}" y="${ly}" text-anchor="end">${Math.round(l.share * 100)}%</text>`;
+  })
+  .join("\n");
+const css = `
+.k{font:500 22px ${MONO};fill:${c.violet2}}
+.big{font:600 96px ${SANS};fill:${c.text};letter-spacing:-4px}
+.cap{font:400 24px ${SANS};fill:${c.muted}}
+.l{font:500 24px ${SANS};fill:${c.text2}}
+.v{font:500 22px ${MONO};fill:${c.muted}}`;
+const body = `<text class="k" x="${X}" y="66">GITHUB ACTIVITY</text>
+<text class="big" x="${X - 4}" y="178">${repos.totalCount}</text>
+<text class="cap" x="${X}" y="220">public</text>
+<text class="cap" x="${X}" y="250">repositories</text>
+<rect x="${BX - 40}" y="110" width="1" height="130" fill="${c.border}" />
+<text class="cap" x="${BX}" y="114">Languages across them</text>
 ${segs}
 ${legend}`;
-  return svg({ width: W, height: H, label: `Lenguajes en repositorios públicos: ${top.map((l) => `${l.name} ${(l.share * 100).toFixed(1)}%`).join(", ")}`, weights: [500], css, body });
-}
-
-for (const [mode, t] of Object.entries(themes)) write(`${outDir}/languages-${mode}.svg`, render(t));
-console.log(top.map((l) => `${l.name} ${(l.share * 100).toFixed(1)}%`).join(", "));
+const label = `GitHub activity: ${repos.totalCount} public repositories. Languages: ${top.map((l) => `${l.name} ${Math.round(l.share * 100)}%`).join(", ")}`;
+write(`${outDir}/activity.svg`, svg({ width: W, height: H, label, fonts: ["sans-400", "sans-500", "sans-600"], css, body }));
+console.log(label);

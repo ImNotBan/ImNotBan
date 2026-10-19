@@ -1,75 +1,66 @@
 // Shared design tokens and helpers for the profile's SVG assets.
-// SVGs shown through <img> cannot load external files, so the DM Sans
-// faces they use are inlined as base64.
+// SVGs shown through <img> cannot load external files, so the fonts they
+// use are inlined as base64.
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
+export const asset = (name) => fileURLToPath(new URL(`../assets/${name}`, import.meta.url));
 
 export const SANS = `'DM Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif`;
+export const SERIF = `'Cormorant Garamond', Georgia, 'Times New Roman', serif`;
 export const MONO = `ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace`;
 
-export const themes = {
-  dark: {
-    card: "#0a0a0a",
-    border: "#262626",
-    hair: "#1c1c1c",
-    text: "#ededed",
-    muted: "#a1a1a1",
-    subtle: "#6b6b6b",
-    faint: "#2a2a2a",
-    accent: "#8b5cf6",
-    accentSoft: "#a78bfa",
-    chip: "#111111",
-    chipText: "#d4d4d4",
-    scale: ["#8b5cf6", "#e5e5e5", "#a3a3a3", "#737373", "#525252", "#3f3f3f", "#2b2b2b"],
-  },
-  light: {
-    card: "#ffffff",
-    border: "#e5e5e5",
-    hair: "#efefef",
-    text: "#0a0a0a",
-    muted: "#525252",
-    subtle: "#8a8a8a",
-    faint: "#e4e4e4",
-    accent: "#7c3aed",
-    accentSoft: "#8b5cf6",
-    chip: "#fafafa",
-    chipText: "#262626",
-    scale: ["#7c3aed", "#171717", "#525252", "#737373", "#a3a3a3", "#c7c7c7", "#e5e5e5"],
-  },
+// One dark palette: the cards read as product surfaces in both GitHub themes.
+export const c = {
+  bg: "#09090b",
+  panel: "#0f0f12",
+  tile: "#141418",
+  border: "#27272a",
+  line: "#1f1f23",
+  text: "#fafafa",
+  text2: "#d4d4d8",
+  muted: "#a1a1aa",
+  subtle: "#71717a",
+  violet: "#8b5cf6",
+  violet2: "#a78bfa",
+  violet3: "#c4b5fd",
 };
 
-const fontCache = {};
-export function fontFace(weights) {
-  return weights
-    .map((w) => {
-      fontCache[w] ??= readFileSync(
-        new URL(`../assets/fonts/dm-sans-latin-${w}-normal.woff2`, import.meta.url),
-      ).toString("base64");
-      return `@font-face{font-family:"DM Sans";font-weight:${w};src:url(data:font/woff2;base64,${fontCache[w]}) format("woff2")}`;
+const fonts = {
+  "sans-400": ["DM Sans", 400, "normal", "dm-sans-latin-400-normal"],
+  "sans-500": ["DM Sans", 500, "normal", "dm-sans-latin-500-normal"],
+  "sans-600": ["DM Sans", 600, "normal", "dm-sans-latin-600-normal"],
+  "serif-italic": ["Cormorant Garamond", 400, "italic", "cormorant-garamond-latin-400-italic"],
+};
+export function fontFace(keys) {
+  return keys
+    .map((k) => {
+      const [family, weight, style, file] = fonts[k];
+      const data = readFileSync(asset(`fonts/${file}.woff2`)).toString("base64");
+      return `@font-face{font-family:'${family}';font-weight:${weight};font-style:${style};src:url(data:font/woff2;base64,${data}) format('woff2')}`;
     })
     .join("");
 }
 
 export const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
 
-export function svg({ width, height, label, weights = [], css = "", body }) {
+export function svg({ width, height, label, fonts = [], css = "", defs = "", body }) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(label)}">
-<style>${fontFace(weights)}${css}</style>
+<style>${fontFace(fonts)}${css}</style>
+<defs>
+<clipPath id="frame"><rect width="${width}" height="${height}" rx="20" /></clipPath>
+<linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${c.violet}" stop-opacity="0" /><stop offset=".5" stop-color="${c.violet3}" /><stop offset="1" stop-color="${c.violet}" stop-opacity="0" /></linearGradient>
+${defs}
+</defs>
+<g clip-path="url(#frame)">
+<rect width="${width}" height="${height}" fill="${c.bg}" />
 ${body}
+<rect x="${width * 0.18}" y="0" width="${width * 0.64}" height="1" fill="url(#beam)" />
+</g>
+<rect x=".5" y=".5" width="${width - 1}" height="${height - 1}" rx="19.5" fill="none" stroke="${c.border}" />
 </svg>
 `;
-}
-
-export function card(t, width, height) {
-  return `<rect x=".5" y=".5" width="${width - 1}" height="${height - 1}" rx="16" fill="${t.card}" stroke="${t.border}" />`;
-}
-
-// Rough advance widths, good enough to size pills around short labels.
-export function textWidth(s, size, mono = false) {
-  if (mono) return s.length * size * 0.6;
-  let w = 0;
-  for (const ch of s) w += /[il.,:;'|!]/.test(ch) ? 0.26 : /[mwMW]/.test(ch) ? 0.82 : /[A-Z]/.test(ch) ? 0.64 : /[+#]/.test(ch) ? 0.6 : 0.54;
-  return w * size;
 }
 
 export function write(path, content) {
@@ -87,3 +78,5 @@ export function rng(seed) {
     return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
   };
 }
+
+export const f1 = (n) => Math.round(n * 10) / 10;
