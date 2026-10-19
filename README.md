@@ -38,13 +38,11 @@
 
 </div>
 
-## 📁 Proyectos
+## 📁 Proyecto
 
 | Proyecto | Descripción | Enlace |
 | :-- | :-- | :-- |
-| **Montserrat Viva** ⭐ | Mi Treball de Recerca de bachillerato convertido en web. | [Demo](https://montserrat-viva.vercel.app/) |
-| **TILOA** | Tienda e-commerce en Shopify con tema personalizado. | — |
-| **Git Happens** | Mi equipo de hackathon de la Universitat de Lleida. | — |
+| **Montserrat Viva** | Mi TDR de bachillerato convertido en web. | [Demo](https://montserrat-viva.vercel.app/) |
 
 ## 📊 Estadísticas
 
