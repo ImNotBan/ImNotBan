@@ -1,6 +1,6 @@
 ## Hola, soy Edmon 👋
 
-Estudiante de **Ingeniería Informática** en la [Universitat de Lleida](https://www.udl.cat/). Me gusta construir cosas para la web y entender cómo funcionan las máquinas por dentro, desde React hasta ensamblador.
+Estudiante de **Ingeniería Informática** en la [Universitat de Lleida](https://www.udl.cat/). Sobre todo hago webs con TypeScript y React, y en la carrera me peleo con Java, C y ensamblador. Siempre tengo algún proyecto a medias.
 
 ### Con qué trabajo
 
