@@ -1,13 +1,28 @@
-<img src="./assets/hero.svg" width="100%" alt="Edmon Alcoceba Carbón — Computer Engineering Student · Universitat de Lleida" />
+## Hola, soy Edmon 👋
 
-<img src="./assets/stack.svg" width="100%" alt="Tech stack. Languages: Java, Python, C / C++, Assembly. Web: TypeScript, Next.js, React, HTML / CSS. Backend &amp; tools: Flask, Git, Bash, Linux" />
+Estudiante de **Ingeniería Informática** en la [Universitat de Lleida](https://www.udl.cat/). Me gusta construir cosas para la web y entender cómo funcionan las máquinas por dentro, desde React hasta ensamblador.
 
-<a href="https://montserrat-viva.vercel.app/"><img src="./assets/project.svg" width="100%" alt="Featured project: Montserrat Viva — Una muntanya. Centenars d’espècies. Un sol ecosistema. montserrat-viva.vercel.app" /></a>
+### Con qué trabajo
 
-<img src="https://raw.githubusercontent.com/ImNotBan/ImNotBan/output/activity.svg" width="100%" alt="GitHub activity: public repositories and the languages used across them" />
-
-<p align="center">
-  <a href="mailto:edmonalkoceba21@gmail.com">Email</a>
-  &nbsp;·&nbsp;
-  <a href="https://montserrat-viva.vercel.app/">Montserrat Viva</a>
+<p>
+  <img src="https://skillicons.dev/icons?i=java,py,cpp,ts,nextjs,react,html,css,flask,git,bash,linux&perline=12" alt="Java, Python, C/C++, TypeScript, Next.js, React, HTML, CSS, Flask, Git, Bash, Linux" />
 </p>
+
+### Proyecto destacado
+
+<a href="https://montserrat-viva.vercel.app/">
+  <img src="./assets/montserrat-viva.jpg" width="100%" alt="Montserrat Viva: Una muntanya. Centenars d’espècies. Un sol ecosistema." />
+</a>
+
+**[Montserrat Viva](https://montserrat-viva.vercel.app/)**: una web que explora la red invisible que conecta la fauna y la flora de Montserrat. Hecha con Next.js, React y TypeScript.
+
+### En números
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ImNotBan/ImNotBan/output/languages-dark.svg" />
+  <img src="https://raw.githubusercontent.com/ImNotBan/ImNotBan/output/languages-light.svg" width="100%" alt="Lenguajes más usados en mis repositorios públicos" />
+</picture>
+
+---
+
+📫 [edmonalkoceba21@gmail.com](mailto:edmonalkoceba21@gmail.com)
