@@ -1,6 +1,6 @@
 ## Hola, soy Edmon 👋
 
-Estudiante de **Ingeniería Informática** en la [Universitat de Lleida](https://www.udl.cat/). Sobre todo hago webs con TypeScript y React.
+Estudiante de **Ingeniería Informática** en la [Universitat de Lleida](https://www.udl.cat/).
 
 ### Con qué trabajo
 
