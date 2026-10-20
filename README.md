@@ -1,6 +1,6 @@
 ## Hola, soy Edmon 👋
 
-Estudiante de **Ingeniería Informática** en la [Universitat de Lleida](https://www.udl.cat/). Sobre todo hago webs con TypeScript y React, y en la carrera me peleo con Java, C y ensamblador. Siempre tengo algún proyecto a medias.
+Estudiante de **Ingeniería Informática** en la [Universitat de Lleida](https://www.udl.cat/). Sobre todo hago webs con TypeScript y React.
 
 ### Con qué trabajo
 
@@ -11,7 +11,7 @@ Estudiante de **Ingeniería Informática** en la [Universitat de Lleida](https:/
 ### Proyecto destacado
 
 <a href="https://montserrat-viva.vercel.app/">
-  <img src="./assets/montserrat-viva.jpg" width="100%" alt="Montserrat Viva: Una muntanya. Centenars d’espècies. Un sol ecosistema." />
+  <img src="./assets/montserrat-viva.jpg" width="420" alt="Montserrat Viva: Una muntanya. Centenars d’espècies. Un sol ecosistema." />
 </a>
 
 **[Montserrat Viva](https://montserrat-viva.vercel.app/)**: una web que explora la red invisible que conecta la fauna y la flora de Montserrat. Hecha con Next.js, React y TypeScript.
