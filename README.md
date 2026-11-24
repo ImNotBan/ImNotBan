@@ -5,9 +5,9 @@ Estudiant de la [Universitat de Lleida (UdL)](https://www.udl.cat/).
 ### 🌿 Montserrat Viva
 
 Web sobre la fauna, la flora i l'ecosistema de la muntanya de Montserrat, feta amb Next.js i TypeScript.
-👉 [montserrat-viva.vercel.app](https://montserrat-viva.vercel.app)
+👉 [montserratviva.vercel.app](https://montserratviva.vercel.app)
 
-<a href="https://montserrat-viva.vercel.app"><img src="assets/montserrat-viva.jpg" alt="Montserrat Viva" width="480"></a>
+<a href="https://montserratviva.vercel.app"><img src="assets/montserrat-viva.jpg" alt="Montserrat Viva" width="480"></a>
 
 ### Altres projectes
 
